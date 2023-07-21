@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Lista / <List> */
+.list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 30px;
+}
+
+/* Element / <Item> -> li */
+
+.item {
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px 50px;
+    background: salmon;
+}
+
+/* Emoji / <Item> -> span */
+.emoji {
+    display: block;
+    font-size: 32px;
+    margin-bottom: 42px;
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+.emoji.zoomed {
+    transform: scale(2);
+}
+
+/* Button / <Item> -> button */
+.btn {
+    color: white;
+    background: transparent;
+    border: solid 1px;
+    padding: 12px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+    cursor: pointer;
+    width: 100px;
+}
+
+.btn:hover {
+    color: salmon;
+    background: white;
+}
