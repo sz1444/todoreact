@@ -26,12 +26,6 @@
     display: block;
     font-size: 32px;
     margin-bottom: 42px;
-    transform: scale(1);
-    transition: transform 0.3s;
-}
-
-.emoji.zoomed {
-    transform: scale(2);
 }
 
 /* Button / <Item> -> button */
