@@ -13,31 +13,32 @@
 }
 
 /* Element / <Item> -> li */
-
 .item {
-    text-align: center;
-    border-radius: 20px;
-    padding: 30px 50px;
     background: salmon;
+    padding: 30px 50px;
+    border-radius: 20px;
+    text-align: center;
 }
 
 /* Emoji / <Item> -> span */
 .emoji {
     display: block;
-    font-size: 32px;
     margin-bottom: 42px;
+    font-size: 32px;
 }
 
 /* Button / <Item> -> button */
 .btn {
-    color: white;
     background: transparent;
     border: solid 1px;
     padding: 12px;
     border-radius: 5px;
-    transition: background 0.3s, color 0.3s;
     cursor: pointer;
     width: 100px;
+    color: salmon;
+    transition:
+        background 0.3s,
+        color 0.3s;
 }
 
 .btn:hover {
