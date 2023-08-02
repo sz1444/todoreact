@@ -4,9 +4,10 @@ export function Item({ emoji }) {
     const [zoomed, setZoomed] = useState(false);
 
     return (
-        <li>
-            <span>{emoji}</span>
+        <li className="item ">
+            <span className={`emoji ${zoomed ? "zoomed" : ""}`}>{emoji}</span>
             <button
+                className="btn"
                 onClick={() => {
                     setZoomed((wasZoomed) => !wasZoomed);
                 }}
