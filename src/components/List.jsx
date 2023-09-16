@@ -4,7 +4,7 @@ const emojis = ["🚀", "🎶", "🎁", "🎉", "✨"];
 
 export function List() {
     return (
-        <ul className="list">
+        <ul>
             {emojis.map((emoji) => (
                 <Item key={emoji} emoji={emoji} />
             ))}

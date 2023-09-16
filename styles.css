@@ -7,7 +7,6 @@
 /* Lista / <List> */
 .list {
     display: flex;
-    flex-direction: column;
     list-style: none;
     gap: 30px;
     padding: 30px;
@@ -19,7 +18,6 @@
     padding: 30px 50px;
     border-radius: 20px;
     text-align: center;
-    overflow: hidden;
 }
 
 /* Emoji / <Item> -> span */
@@ -27,10 +25,6 @@
     display: block;
     margin-bottom: 42px;
     font-size: 32px;
-}
-
-.emoji.zoomed {
-    transform: scale(2);
 }
 
 /* Button / <Item> -> button */
@@ -41,8 +35,10 @@
     border-radius: 5px;
     cursor: pointer;
     width: 100px;
-    color: white;
-    transition: background 0.3s, color 0.3s;
+    color: salmon;
+    transition:
+        background 0.3s,
+        color 0.3s;
 }
 
 .btn:hover {
